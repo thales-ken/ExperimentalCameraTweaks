@@ -6,8 +6,6 @@ That led me to search for an addon that could automatically enable this setting 
 
 So, I created ExperimentalCameraTweaks! It’s an intentionally simple addon that I can quickly update on day one of a new patch.
 
-I’m currently working on figuring out how to disable or auto-accept the visual discomfort alert box that pops up upon login, but I’m not entirely sure if that’s even possible.
-
 ## Features
 
 - **Automatic ActionCam Activation** - Optionally enable ActionCam automatically on login
