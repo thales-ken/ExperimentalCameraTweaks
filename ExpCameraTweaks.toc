@@ -2,6 +2,7 @@
 ## Title: Experimental Camera Tweaks
 ## Notes: Activates experimental camera settings.
 ## Version: 0.3
+## IconTexture: Interface\AddOns\ExpCameraTweaks\icon.tga
 ## SavedVariables: ExpCameraTweaksDB
 
 # Core files
