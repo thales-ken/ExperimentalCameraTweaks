@@ -1,6 +1,12 @@
 # ExpCameraTweaks
 
-A World of Warcraft addon that provides enhanced control over the game's experimental ActionCam feature with a user-friendly settings interface.
+I’ve loved the ActionCam feature ever since it was introduced, but one thing has always annoyed me: every time I logged in, I had to type /console ActionCam full in chat again.
+
+That led me to search for an addon that could automatically enable this setting when I entered the game. Unfortunately, the options I found were either abandoned or overloaded with features, and they often took days to be updated after a new patch.
+
+So, I created ExperimentalCameraTweaks! It’s an intentionally simple addon that anyone can quickly update on day one of a new patch.
+
+I’m currently working on figuring out how to disable or auto-accept the visual discomfort alert box that pops up upon login, but I’m not entirely sure if that’s even possible.
 
 ## Features
 
@@ -63,13 +69,6 @@ ExpCameraTweaks/
 - **Wrath Classic**: ✅ 3.4+
 - **Classic Era**: ✅ 1.15+
 
-## Development
-
-The addon uses a modular architecture:
-- Uses the `ExpCameraTweaks` namespace table
-- SavedVariables stored in `ExpCameraTweaksDB`
-- Settings apply immediately without requiring UI reload
-
 ## Version History
 
 **v0.3** (Current)
@@ -86,15 +85,3 @@ The addon uses a modular architecture:
 **v0.1**
 - Initial release
 - Basic ActionCam activation
-
-## License
-
-This project is free to use and modify. If you distribute modified versions, please credit the original author.
-
-## Contributing
-
-Contributions are welcome! Feel free to submit issues or pull requests.
-
-## Support
-
-For bugs, feature requests, or questions, please open an issue on the GitHub repository.
