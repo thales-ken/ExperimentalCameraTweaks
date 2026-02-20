@@ -8,6 +8,9 @@ function addon:ApplySettings()
     local db = self.db or ExpCameraTweaksDB
     if not db.enabled then return end
     
+    -- Disable the ActionCam warning message
+    UIParent:UnregisterEvent("EXPERIMENTAL_CVAR_CONFIRMATION_NEEDED")
+    
     -- Dynamic pitch
     SetCVar("test_cameraDynamicPitch", db.dynamicPitch and "1" or "0")
     
