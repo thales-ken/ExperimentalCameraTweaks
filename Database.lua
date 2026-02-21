@@ -11,6 +11,7 @@ addon.defaults = {
     dynamicPitch = true,
     headMovementStrength = 2,
     headMovementRange = 10,
+    headMovementStandingStrength = 1,
     overShoulder = 1.2,
     targetFocusEnemy = true,
     targetFocusInteract = true,

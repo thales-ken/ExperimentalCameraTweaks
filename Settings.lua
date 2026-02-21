@@ -18,7 +18,7 @@ function addon:ApplySettings()
     SetCVar("test_cameraHeadMovementStrength", tostring(db.headMovementStrength))
     SetCVar("test_cameraHeadMovementRangeScale", tostring(db.headMovementRange))
     SetCVar("test_cameraHeadMovementMovingStrength", "1")
-    SetCVar("test_cameraHeadMovementStandingStrength", "1")
+    SetCVar("test_cameraHeadMovementStandingStrength", tostring(db.headMovementStandingStrength))
     
     -- Over-shoulder
     SetCVar("test_cameraOverShoulder", tostring(db.overShoulder))
