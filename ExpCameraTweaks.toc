@@ -1,6 +1,6 @@
 ## Interface: 120000,120001, 110207, 50503, 40402, 30403, 20505, 11508
 ## Title: Experimental Camera Tweaks
-## Notes: Activates experimental camera settings.
+## Notes: Activates experimental camera settings. |n|cffbbbbbbBy Thales Ken |r|n|cff82c5ffgithub.com/thales-ken
 ## Version: 0.3
 ## IconTexture: Interface\AddOns\ExpCameraTweaks\icon.tga
 ## SavedVariables: ExpCameraTweaksDB
