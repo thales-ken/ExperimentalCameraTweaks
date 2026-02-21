@@ -11,6 +11,7 @@ EventFrame:RegisterEvent("PLAYER_ENTERING_WORLD")
 EventFrame:SetScript("OnEvent", function(self, event, arg1)
     if event == "ADDON_LOADED" and arg1 == "ExpCameraTweaks" then
         addon:InitializeDB()
+        addon:CreateMinimapButton()
         addon:CreateSettingsPanel()
     elseif event == "PLAYER_ENTERING_WORLD" then
         local db = addon.db or ExpCameraTweaksDB

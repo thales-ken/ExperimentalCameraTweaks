@@ -7,12 +7,14 @@ local addon = ExpCameraTweaks
 addon.defaults = {
     enabled = true,
     autoApply = true,
+    showMinimapButton = true,
     dynamicPitch = true,
     headMovementStrength = 2,
     headMovementRange = 10,
     overShoulder = 1.2,
     targetFocusEnemy = true,
     targetFocusInteract = true,
+    minimapPos = 220,
 }
 
 -- Initialize saved variables
