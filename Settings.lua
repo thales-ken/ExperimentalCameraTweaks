@@ -23,10 +23,10 @@ function addon:ApplySettings()
     -- Over-shoulder
     SetCVar("test_cameraOverShoulder", tostring(db.overShoulder))
     
-    -- Dynamic pitch FOV padding
-    SetCVar("test_cameraDynamicPitchBaseFovPad", "0.4")
-    SetCVar("test_cameraDynamicPitchBaseFovPadFlying", "0.75")
-    SetCVar("test_cameraDynamicPitchBaseFovPadDownScale", "0.35")
+    -- Dynamic pitch FOV padding (scale all values proportionally)
+    SetCVar("test_cameraDynamicPitchBaseFovPad", tostring(db.dynamicPitchStrength))
+    SetCVar("test_cameraDynamicPitchBaseFovPadFlying", tostring(db.dynamicPitchStrength * 1.875))
+    SetCVar("test_cameraDynamicPitchBaseFovPadDownScale", tostring(db.dynamicPitchStrength * 0.875))
     
     -- Target focus
     SetCVar("test_cameraTargetFocusEnemyEnable", db.targetFocusEnemy and "1" or "0")

@@ -9,6 +9,7 @@ addon.defaults = {
     autoApply = true,
     showMinimapButton = true,
     dynamicPitch = true,
+    dynamicPitchStrength = 0.4,
     headMovementStrength = 2,
     headMovementRange = 10,
     headMovementStandingStrength = 1,
