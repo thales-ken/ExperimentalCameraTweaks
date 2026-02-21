@@ -8,5 +8,6 @@
 # Core files
 Database.lua
 Settings.lua
+MinimapButton.lua
 UI.lua
 Core.lua
