@@ -137,7 +137,7 @@ function addon:CreateMinimapButton()
     -- Tooltip
     minimapButton:SetScript("OnEnter", function(self)
         GameTooltip:SetOwner(self, "ANCHOR_LEFT")
-        GameTooltip:AddLine("ActionCam Tweaks")
+        GameTooltip:AddLine("Experimental Camera Tweaks")
         GameTooltip:AddLine(db.enabled and "|cff00ff00Enabled|r" or "|cffff0000Disabled|r", 1, 1, 1)
         GameTooltip:AddLine("Left-click to toggle", 0.7, 0.7, 0.7)
         GameTooltip:AddLine("Drag to move around border", 0.7, 0.7, 0.7)
