@@ -65,8 +65,8 @@ end
 local function GetCircularPosition(angle)
     local rad = math.rad(angle)
     -- Radius 95 = outside minimap border (minimap ~70 radius + button half-width + buffer)
-    local x = math.cos(rad) * 95
-    local y = math.sin(rad) * 95
+    local x = math.cos(rad) * 105
+    local y = math.sin(rad) * 105
     return x, y
 end
 
